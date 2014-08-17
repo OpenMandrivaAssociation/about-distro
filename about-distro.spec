@@ -1,7 +1,7 @@
 Summary:	KCM module to show info about system
 Name:		about-distro
-Version:	1.0.0
-Release:	7
+Version:	1.1.0
+Release:	1
 License:	GPLv3+
 Group:		Graphical desktop/KDE
 Url:		http://www.kde.org
@@ -31,4 +31,3 @@ It can be customized by kcm-about-distrorc file in KDE config directory.
 %makeinstall_std -C build
 
 %find_lang kcm-about-distro
-
