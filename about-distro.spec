@@ -8,6 +8,7 @@ Url:		http://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(KF5Solid)
 BuildRequires:	cmake(KF5ConfigWidgets)
+BuildRequires:	ninja
 
 %description
 KCM module to show info about system.
