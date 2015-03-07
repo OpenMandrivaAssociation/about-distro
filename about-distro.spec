@@ -25,10 +25,12 @@ It can be customized by kcm-about-distrorc file in KDE config directory.
 %setup -q
 
 %build
-%cmake_kde5
-%make
+%cmake -G Ninja \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
+
+ninja
 
 %install
-%makeinstall_std -C build
+DESTDIR="%{buildroot}" ninja -C build install
 
 %find_lang kcm-about-distro
