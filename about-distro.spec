@@ -16,8 +16,8 @@ KCM module to show info about system.
 It can be customized by kcm-about-distrorc file in KDE config directory.
 
 %files -f kcm-about-distro.lang
-%{_kde_libdir}/kde4/kcm_about_distro.so
-%{_kde_services}/%{name}.desktop
+%{_libdir}/qt5/plugins/kcm_about_distro.so
+%{_datadir}/kservices5/about-distro.desktop
 
 #----------------------------------------------------------------------------
 
