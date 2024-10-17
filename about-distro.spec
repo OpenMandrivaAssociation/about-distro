@@ -4,7 +4,7 @@ Version:	2.0.1
 Release:	2
 License:	GPLv3+
 Group:		Graphical desktop/KDE
-Url:		http://www.kde.org
+Url:		https://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(KF5Solid)
 BuildRequires:	cmake(KF5ConfigWidgets)
